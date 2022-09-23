@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela</title>
+    </head>
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            min-width: 300px;
+            text-align: center;
+            font-family: 'Palatino Linotype';
+            margin: 50px auto;
+        }
+
+        table tr:nth-child(odd){
+            background-color: #E8EBFA;
+        }
+        
+        thead tr{
+            background-color: #fff !important;
+            border-top: solid 1px #000;
+        }
+
+        .last{
+            border-bottom: solid 0.5px #000;
+        }
+
+        table tr td:first-of-type{
+            text-align: left;
+        }
+
+    </style>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Linguagem de Marcação</td>
+                    <td>Fundamentos da Computação</td>
+                    <td>Algoritmos</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Frida Kahlo</td>
+                    <td>9.0</td>
+                    <td>9.0</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Cristóvão Colombo</td>
+                    <td>5.0</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                </tr>
+                <tr>
+                    <td>Pedro Alves Cabral</td>
+                    <td>10.0</td>
+                    <td>9.0</td>
+                    <td>9.5</td>
+                </tr>
+                <tr class="last">
+                    <td>Dercy Gonçalves</td>
+                    <td>4.0</td>
+                    <td>4.0</td>
+                    <td>4.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
