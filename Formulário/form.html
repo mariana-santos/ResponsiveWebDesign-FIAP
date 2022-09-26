@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <style>
+            body{
+                display: flex;
+                width: 100%;
+                margin: 0;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
+
+            form{
+                width: 40%;
+            }
+
+            form input:not([type=checkbox]){
+                display: inline-block;
+                width: 70%;
+                margin-top: 1rem;
+                border: solid 1px #000;
+            }
+
+            form label{
+                display: inline-block;
+                width: 20%;
+            }
+
+            input:not([type=submit]){
+                background-color: yellow;
+                color: red;
+            }
+
+            input[type=submit]{
+                border: solid 1.5px #000;
+                width: 92%;
+                margin: auto;
+            }
+
+            label[for=sexoM], label[for=sexoF]{
+                display: inline;
+            }
+
+            input[type=radio]{
+                display: inline !important;
+                width: 25px !important;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="get">
+            <label for="login">Login</label>
+            <input type="text" id="login" name="login">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha">
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade">
+            <div class="wrap">
+                <label for="sexoM">Masculino</label>
+                <input type="radio" id="sexoM" name="sexo">
+                <label for="sexoF">Feminino</label>
+                <input type="radio" id="sexoF" name="sexo">
+            </div>
+            <div class="wrap">
+                <input type="checkbox" id="js">js
+                <input type="checkbox" id="js">python
+            </div>
+            <input type="submit" id="enviar" name="enviar" value="Enviar">
+        </form>
+    </body>
+</html>
