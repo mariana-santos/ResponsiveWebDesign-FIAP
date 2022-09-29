@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+header, footer{
+    background: #ed145b;
+    margin: 0;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0;
+}
+
+header{
+    padding: 2rem;
+}
+
+footer{
+    padding: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#horario{
+    width: 100%;
+    margin: 2rem 0 2rem 5rem;
+}
+
+#contato{
+    margin: 2rem 5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+h1, h2, footer{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: #7dbeff;
+}
+
+td, th{
+    padding: .75rem;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #eee;
+}
+tbody tr:nth-child(even){
+    background: #ccc;
+}
+
+form{
+    background-color: #eee;
+    padding: 2rem;
+    margin-bottom: 1rem
+}
+
+label{
+    width: 100%;
+    display: inline-block;
+}
+
+input, textarea{
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: solid 1px #777;
+    padding: 7px;
+}
