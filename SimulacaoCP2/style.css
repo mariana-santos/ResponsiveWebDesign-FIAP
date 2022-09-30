@@ -21,6 +21,11 @@ footer{
     padding: 1rem;
 }
 
+/* O display flex deixa automaticamente todos os "filhos" dele em linha, 
+que nesse casos os filhos são as duas sections de horário e fale comigo.
+
+O justify-content determina onde os itens vão ficar horizontalmente, pra centralizar é só colocar center, 
+nesse caso o space-around deixa um espaço entre os itens e ao redor deles tbm*/
 main{
     display: flex;
     justify-content: space-around;
@@ -54,12 +59,15 @@ th{
 }
 
 td, th{
-    padding: .75rem;
+    padding: .75rem; /* mesma coisa que 0.75rem */
 }
 
+/* seleciona todos os itens ímpares tr filhos do tbody */
 tbody tr:nth-child(odd){
     background-color: #eee;
 }
+
+/* seleciona todos os itens pares tr filhos do tbody */
 tbody tr:nth-child(even){
     background: #ccc;
 }
