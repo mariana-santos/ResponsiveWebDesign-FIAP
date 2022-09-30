@@ -33,10 +33,12 @@ main{
 
 #horario{
     width: 100%;
-    margin: 2rem 0 2rem 5rem;
+    /* isso é a mesma coisa que: margin-top: 2rem; margin-left: 0; margin-bottom: 2rem e margin-right: 5rem, ele só encurta */
+    margin: 2rem 0 2rem 5rem; 
 }
 
 #contato{
+    /* nesse caso aqui o 2rem é aplicado pra margin-top e margin-bottom e o 5rem é aplicado pra margin-left e margin-right */
     margin: 2rem 5rem;
 }
 
