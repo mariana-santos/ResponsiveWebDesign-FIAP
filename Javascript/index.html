@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript</title>
+
+        <style>
+            div{
+                background-color: #ccc;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <label for="numero">Número: </label>
+        <input type="text" id="numero">
+
+        <label for="numero2">Número: </label>
+        <input type="text" id="numero2">
+
+        <input type="button" value="Mostrar o menor valor" onclick="mostraMenor(
+            document.getElementById('numero').value, 
+            document.getElementById('numero2').value)">
+
+        <hr>
+
+        <label for="numero3">Número: </label>
+        <input type="text" id="numero3">
+
+        <label for="numero4">Número: </label>
+        <input type="text" id="numero4">
+
+        <input type="button" value="Mostrar o menor valor" onclick="mostraMenor(
+            document.getElementById('numero3').value, 
+            document.getElementById('numero4').value)">
+
+        <div id="resultado">Teste do número menor: </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
