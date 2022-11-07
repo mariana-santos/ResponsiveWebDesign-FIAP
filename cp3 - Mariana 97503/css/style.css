@@ -1,0 +1,147 @@
+header{
+    background-color: rgb(0, 204, 255);
+}
+
+#logo{
+    color: #fff;
+    font-weight: 800;
+    padding-top: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#logo span{
+    color: rgb(0, 95, 150);
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ddd;
+}
+
+#principal, #meioheader, .main{
+    max-width: 800px;
+    margin: auto;
+}
+
+#meioheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 25px 30px;
+    padding-top: 100px;
+}
+
+.selectedMenu{
+    background-color: rgb(0, 95, 150);
+    color: #fff;
+}
+
+#banner{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 1em;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#banner small{
+    text-align: center;
+    padding: 5px;
+    display: inherit;
+}
+
+#highlight{
+    border-radius: 5px;
+    background-color: rgb(0, 95, 150);
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#highlight h2{
+    padding: 10px;
+    margin: 0;
+}
+
+#icons{
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+article{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+article img{
+    width: 40%;
+    margin: auto;
+}
+
+article h3{
+    text-align: center;
+    color: rgb(0, 95, 150);
+}
+
+article p{
+    text-align: justify;
+}
+
+article div{
+    background-color: #444;
+    display: inline;
+    color: #fff;
+    width: fit-content;
+    padding: 10px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main{
+    text-align: justify;
+}
+
+footer{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+form{
+    max-width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+label{
+    display: inline-block
+    ;
+    margin-top: 15px;
+}
+
+input[type='submit']{
+    margin: 25px 0;
+}
+
+.erro{
+    color: rgb(255, 64, 64);
+    display: none;
+}
