@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        
+        <header>
+            <section id="meioheader" class="main">
+                <div id="logo"><span>Mariana</span>97503</div>
+                <nav>
+                    <a href="index.html">HOME</a> 
+                    <a href="pagina1.html" >Página 1</a> 
+                    <a href="contato.html" class="selectedMenu">Contato</a> 
+                </nav>
+            </section>    
+        </header>
+        
+        <section class="main" id="principal">
+            <section id="banner">
+                <img alt="banner" src="img/banner2.png" />
+                <small>Vestibulum est torquent neque ut proin a porttitor vestibulum tellus non a dui scelerisque ornare.</small>
+            </section>
+            
+            <section id="highlight">
+                <h2>CheckPoint3</h2>
+            </section>
+            
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Digite aqui seu nome" id="nome" required>
+                <span id="erro_nome" class="erro">Campo obrigatório</span>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" placeholder="Digite aqui seu sobrenome" id="sobrenome" required>
+                <span id="erro_sobrenome" class="erro">Campo obrigatório</span>
+
+                <label for="idade">Idade:</label>
+                <input type="number" placeholder="Digite aqui sua idade" id="idade" required max="149" min="1">
+                <span id="erro_idade" class="erro">Campo obrigatório</span>
+
+                <input type="submit" value="ENVIAR" onclick="validaFormulario()">
+            </form>
+            
+        </section>
+        
+
+        <footer>
+            <small>&copy; 2022 - Mariana Santos F. Sousa</small>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>
