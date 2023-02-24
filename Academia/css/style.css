@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background: #272936;
+    font-family: 'Inter';
+}
+
+body.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.calculo{
+    padding: 7em 5em;
+}
+
+#login{
+    background: #46495C;
+    width: 350px;
+    padding: 3em;
+    text-align: center;
+}
+
+h1, h2{
+    margin-top: 0;
+    color: #fff;
+}
+
+span{
+    color: #bbb;
+    font-size: 14px;
+}
+
+label{
+    display: block;
+    width: 100%;
+    text-align: start;
+    margin-top: 15px;
+    color: #ddd;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input{
+    width: 100%;
+    outline: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #323544;
+    color: #ddd;
+    border: none;
+    font-family: 'Inter';
+}
+
+input[type="button"]{
+    background: #4154CE;
+    margin: 25px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    transition: .3s;
+}
+
+input[type="button"]:hover{
+    opacity: .7;
+}
+
+a{
+    color: #95A3FF;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    gap: 4em
+}
+
+main .info{
+    width: 60%;
+}
+
+#imc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#imc .wrap_form{
+    width: calc(50% - 15px);
+}
+
+#imc .wrap_form:first-of-type{
+    margin-right: 30px;
+}
+
+p{
+    color: #BBBBBB
+}
+
+#informacoes{
+    background: rgba(72, 82, 149, 0.57);
+    border-radius: 10px;
+    padding: 3em 5em;
+    text-align: center;
+    width: fit-content;
+    margin: 2em auto;
+}
+
+#informacoes h1, #informacoes span{
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+#informacoes span{
+    font-weight: 500;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#resultado {
+    transition: .3s;
+    display: none;
+}
+
+table{
+    margin: 5em auto;
+    margin-bottom: 0;
+    color: #fff;
+    background: #46495C;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background: #5B628A;
+}
+
+th, td{
+    padding: 15px 30px;
+}
+
+tbody tr:not(:last-of-type){
+    border-bottom: solid 1px #878787;
+}
